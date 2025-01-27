@@ -20,7 +20,7 @@ public class Rec6 {
         return isFound;
     }
     public static void main (String args[]){
-        int arr[] = {1,2,4,5,3,4};
+        int arr[] = {1,2,4,5,3,4,4};
         System.out.print(lastOccurence(arr, 0, 4));
 
     }
