@@ -1,13 +1,13 @@
 public class Rec6 {
 
-    public static int firstOccurence(int arr[],int i, int key){
+    public static int firstOccurencE(int arr[],int i, int key){
         if(i==arr.length){
             return -1;
         }
         else if(arr[i]==key){
             return i;
         }
-        return firstOccurence(arr, i+1, key);
+        return firstOccurencE(arr, i+1, key);
     }
     public static int lastOccurence(int arr[],int i , int key){
         if(i==arr.length){
